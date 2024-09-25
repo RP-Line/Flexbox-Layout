@@ -1,0 +1,177 @@
+:root{
+    --Dark: rgb(88, 88, 88);
+    --light:rgb(184, 184, 184);
+    --mid:rgb(161, 161, 161);
+}
+
+body{
+    padding:0px;
+    margin:0px;
+}
+
+#narvbarDiv{
+    background-color: var(--Dark);
+    width: 100%;
+    height:100px;
+    margin-bottom:30px;
+}
+
+#heroDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#leftsideDiv{
+    /* border:2px solid blue; */
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 55%;
+}
+
+#tabsDivParent{
+    display: flex;
+}
+
+.tabsDiv{
+    width:150px;
+    height:30px;
+    background-color: var(--light);
+    margin-right:10px;
+    } 
+
+
+#selectedtabDiv{
+        background-color: var(--Dark);
+    }
+
+#topDivleft{
+    height:50%;
+    width:100%;
+    margin-bottom:30px;
+}
+
+#showingtabDiv{
+    width: 100%;
+    height:300px;
+    background-color: var(--Dark);
+}
+
+#bottomDivleft{
+    display:flex;
+    gap:30px 33px;
+    flex-wrap: wrap;
+}
+
+.selectionDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.selectionPictureDiv{
+    height:140px;
+    width:140px;
+    background-color: var(--mid);
+    margin-bottom: 10px;
+}
+
+.textDiv{
+    margin-bottom: 10px;
+    height:15px;
+}
+
+.longText{
+    width:80px;
+}
+
+.shortText{
+    width:40px;
+}
+
+.selectionRowTextDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textDiv{
+    background-color: var(--light);
+}
+
+
+
+
+
+
+#rightsideDiv{
+    flex-basis: 39%;
+    flex-direction: column;
+}
+
+#rightsideTop{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.tabsDivRight{
+    background-color: var(--light);
+    height:30px;
+    width:40px;
+    margin-left:10px;
+    margin-bottom:5px;
+}
+
+#bigDivRight{
+    background-color: var(--mid);
+    height:290px;
+    width:100%;
+    margin-bottom: 30px;
+}
+
+#smallDivRight{
+    background-color: var(--Dark);
+    width:100%;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.selectionDivParentRight{
+    margin-bottom: 20px;
+}
+
+.PictureandText{
+    display: flex;
+    align-items: center;
+}
+
+.smallTextParent{
+    display: flex;
+    flex-direction: column;
+}
+
+.pictureRight{
+    background-color: var(--mid);
+    width: 130px;
+    height: 130px;
+    margin-right: 10px;;
+}
+
+.smallText{
+    background-color: var(--light);
+    width: 500px;
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+.longTextRight{
+    background-color: var(--light);
+    height: 15px;
+    margin-top: 5px;
+}
+
+#dividerDiv{
+    background-color: var(--Dark);
+    height: 10px;
+}
+
